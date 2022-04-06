@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PVFKM922RK">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PVFKM922RK");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaobi Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="#" class="navbar-logo">Adaobi Okoye</a>
+        <a href="#" class="navbar-btn">
+          <ul class="navbar-desk">
+            <li class="navbar-link">Portfolio</li>
+            <li class="navbar-link">About</li>
+            <li class="navbar-link">Contact</li>
+            <li class="navbar-link">
+              <img src="./icons/Uni.png" alt="Email" class="text-white" />
+            </li>
+          </ul>
+        </a>
+        <a href="#" class="navbar-menu" onclick="toggle()">
+          <img id="hamburger-btn" src="assets/hamburger.svg" alt="Menu" />
+        </a> 
+      </nav>
+      <ul id="mobile-nav-list" class="mobile-nav-list">
+        
+        <li>
+          <a class="mobile-nav-link" href="#work-section">Portfolio</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#abouta-section">About</a>
+        </li>
+        <li>
+          <a class="mobile-nav-link" href="#contacta-section">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <section class="about-us">
+      <section class="header-content">
+        <h1 class="header-title">Hey There. I'm Adaobi</h1>
+        <h2 class="header-subtitle">I'm a Software Developer</h2>
+        <p class="header-text-description">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don't hestiate to contact me.
+        </p>
+        <ul class="social-media">
+          <li>
+            <a href="#" class="social-media-icon">
+              <img src="./icons/githu.png" alt="Github" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-media-icon">
+              <img src="./icons/Linked.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-media-icon">
+              <img src="./icons/ang.png" alt="Angel" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-media-icon">
+              <img src="./icons/twi.png" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-media-medium-icon">
+              <img
+                class="image-correction"
+                src="./icons/med.png"
+                alt="Medium"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <main>
+     
+      <!-- Works Section -->
+      <section class="work" id="portfolio">
+        <p class="workhead">My Recent Works</p>
+        <h2 class="workhead2">My Recent Works</h2>
+        <hr>      
+    </section>
+
+      <!-- About Section -->
+      <section  id="abouta-section" class="about">
+        <div class="about-me">
+          <div class="about-soft">
+            <h2 class="about-head">About me</h2>
+            <p class="hello">
+              Hello I'm a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don't
+              hestiate to contact me.
+            </p>
+            <button class="btn" type="button">Get My Resume</button>
+          </div>
+        </div>
+        <div class="about1">
+          <hr class="about-separater" />
+        </div>
+        <div class="footer-technologies">
+          <ul class="technologies">
+            <li class="tech-title font-inter">
+              <img src="./Skeleton/diamond.png" alt="diamond" />
+              <div class="text-white">Language</div>
+            </li>
+            <li class="tech">Javascript</li>
+            <li class="tech">Ruby</li>
+            <li class="tech">HTML</li>
+            <li class="tech">Css</li>
+          </ul>
+          <ul class="technologies">
+            <li class="tech-title">
+              <img src="./Skeleton/Rectangle.png" alt="rectangle" />
+              <div class="text-white">Frameworks</div>
+            </li>
+            <li class="tech">Bootstrap</li>
+            <li class="tech">Roby on Rails</li>
+            <li class="tech">RSPec</li>
+            <li class="tech">CapyBara</li>
+            <li class="tech">Selenium</li>
+          </ul>
+          <ul class="technologies">
+            <li class="tech-title">
+              <img src="./Skeleton/circle.png" alt="circle" />
+              <div class="text-white">Skills</div>
+            </li>
+            <li class="tech">Codekitt</li>
+            <li class="tech">Github</li>
+            <li class="tech">Codepen</li>
+            <li class="tech">Gitlab</li>
+            <li class="tech">Terminal</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section  id="contacta-section" class="contact">
+        <div class="form-detail">
+          <p>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </p>
+        </div>
+        <div class="contact-form">
+          <form
+            action="https://formspree.io/f/xlezlkyw"
+            method="post"
+            class="contact-us"
+          >
+            <input
+              type="text"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
+            <input type="email" placeholder="Email address" required />
+            <textarea
+              name="msgt1"
+              id="t1"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <p>
+              <button class="button" type="submit">Get in touch</button>
+            </p>
+          </form>
+        </div>
+      </section>
+      <footer class="social-footer-social">
+        <div class="foot">
+          <hr class="foot-separater" />
+        </div>
+        <div class="social-media-icon1">
+          <a href="#" class="social-link">
+            <img class="social-icon" src="./icons/github.png" alt="GitHub" />
+          </a>
+          <a href="#" class="social-link">
+            <img
+              class="social-icon"
+              src="./icons/Linkedin.png"
+              alt="LinkedIn"
+            />
+          </a>
+          <a href="#" class="social-link"> 
+            <img class="social-icon" src="./icons/angel.png" alt="Angel" />
+          </a>
+          <a href="#" class="social-link">
+            <img class="social-icon" src="./icons/twitter.png" alt="Twitter" />
+          </a>
+          <a href="#" class="social-link">
+            <img class="social-icon" src="./icons/medium.png" alt="Medium" />
+          </a>
+        </div>
+      </footer>
+    </main>
+    <script src="index.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
